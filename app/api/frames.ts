@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  const baseUrl = "https://noblocks-techieconso.vercel.app";
+  const baseUrl = "https://noblocks-techieconso.netlify.app/";
 
   res.setHeader("Content-Type", "text/html");
   res.send(`

@@ -1,0 +1,10 @@
+{
+  "name": "My Cool Mini App",
+  "description": "An app that lets you swap stablecoins via Base",
+  "url": "https://noblocks-techieconso.netlify.app",
+  "icons": ["https://your-app-name.netlify.app/icon.png"],
+  "developer": {
+    "name": "Your Name",
+    "url": "https://github.com/KEM-CONSOLATION"
+  }
+}
