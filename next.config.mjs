@@ -49,17 +49,20 @@ const nextConfig = {
     },
   ],
   experimental: {
+    appDir: true,
     optimizeCss: true,
     optimizePackageImports: ["@headlessui/react", "framer-motion"],
   },
+  output: "standalone",
+
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
   },
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'flagcdn.com',
+        protocol: "https",
+        hostname: "flagcdn.com",
       },
     ],
   },
