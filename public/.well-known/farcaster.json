@@ -26,5 +26,10 @@
     "name": "Your Name or Team Name",
     "website": "https://github.com/KEM-CONSOLATION",
     "contact": "mailto:consolationlotachi@email.com"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjExNjI4ODAsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhBNzQ2N0M1RDczNzk3NjNhZERkM2Y4ZmVkMzJGRDk0MEY2Qzc3QzVkIn0",
+    "payload": "eyJkb21haW4iOiJub2Jsb2Nrcy10ZWNoaWVjb25zby5uZXRsaWZ5LmFwcCJ9",
+    "signature": "MHg2Y2Y1MWZlYmJkM2E5NGI0NTVlYTM0NjIxNzZkMjgyZGFkN2Y5NzRjMzU0OGUzYzFmOTkzM2M0MzdmNjcwNDc4MTdmYjY3ZjQ0ZWY0MDhjNWI5NmFlNDllYzQ0Mjg5NmZlMWZhYWNjMzUwYWNlZGYwN2FlZjBlNGZhYTk3Zjg2MzFj"
   }
 }
