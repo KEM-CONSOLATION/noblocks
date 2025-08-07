@@ -237,18 +237,7 @@ export default function RootLayout({
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <Script
-          src="https://esm.sh/@farcaster/miniapp-sdk"
-          strategy="beforeInteractive"
-          onLoad={() => {
-            console.log("📦 Farcaster SDK loaded via script tag");
-            // Make SDK available globally
-            window.farcasterSDKLoaded = true;
-          }}
-          onError={(e) => {
-            console.error("❌ Failed to load Farcaster SDK script:", e);
-          }}
-        />
+
         <Providers>
           <div className="min-h-full min-w-full bg-white transition-colors dark:bg-neutral-900">
             <div className="relative">
