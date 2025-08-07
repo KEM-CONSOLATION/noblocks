@@ -1,12 +1,18 @@
-[build]
+
+    [build]
   command = "pnpm run build"
-  publish = ".next"
+  publish = "out"  # ✅ Use "out" for Next.js static export (if you're using `next export`)
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-  
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "ALLOWALL"
+
+[[redirects]]
+  from = "/.well-known/farcaster.json"
+  to = "https://api.farcaster.xyz/miniapps/hosted-manifest/019881b8-e177-2105-8981-6c315f1d3e7d"
+  status = 307
+  force = true
