@@ -20,6 +20,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ethersproject/abi": "^5.8.0",
+    "@ethersproject/bignumber": "^5.8.0",
+    "@ethersproject/contracts": "^5.8.0",
+    "@ethersproject/properties": "^5.8.0",
+    "@ethersproject/providers": "^5.8.0",
     "@farcaster/miniapp-sdk": "^0.1.8",
     "@headlessui/react": "^2.2.4",
     "@hotjar/browser": "^1.0.9",
@@ -54,7 +59,7 @@
     "react-qrcode-logo": "^3.0.0",
     "sonner": "^1.7.4",
     "thirdweb": "^5.102.6",
-    "viem": "^2.31.0"
+    "viem": "^1.20.0"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^5.12.0",

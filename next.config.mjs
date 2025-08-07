@@ -49,9 +49,14 @@ const nextConfig = {
     },
   ],
   experimental: {
-    appDir: true,
+    // appDir: true,
+    // nodeMiddleware: true,
     optimizeCss: true,
     optimizePackageImports: ["@headlessui/react", "framer-motion"],
+  },
+  webpack: (config) => {
+    config.resolve.symlinks = false;
+    return config;
   },
   output: "standalone",
 

@@ -8,8 +8,9 @@
 
 [[headers]]
   for = "/*"
-  [headers.values]
+ [headers.values]
     X-Frame-Options = "ALLOWALL"
+    Content-Security-Policy = "frame-ancestors *"
 
 [[redirects]]
   from = "/.well-known/farcaster.json"
